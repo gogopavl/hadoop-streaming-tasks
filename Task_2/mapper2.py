@@ -36,7 +36,7 @@ for line in sys.stdin:
 
         # To keep O(1) space, we bound the size of our memory footprint
         if len(bigramDictionary) > MAX_SIZE:
-            for key, value in word_dict.items():
+            for key, value in bigramDictionary.items():
                 if value > 5: # Write bigrams with frequency greater than 5
                     print(key + "\t" + str(value))
             bigramDictionary.clear()
