@@ -7,7 +7,7 @@ numberOfActors = 0
 MAX_SIZE = 100
 
 def map_function(line):
-    primaryProfession = line.split("\t")[4]
+    primaryProfession = line.split("\t")[4].strip()
     if "actor" in primaryProfession or "actress" in primaryProfession:
         yield 1 # Emit key 1 - same reducer, 1 (occurence of actor/actress)
 
