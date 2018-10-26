@@ -2,13 +2,14 @@
 # reducer7.py
 import sys
 
-partialAverage = 0
+totalWriters = 0
 totalNumber = 0
 
 for line in sys.stdin:          # For ever line in the input from stdin
-    key = line.strip()         # Remove trailing characters
-    partialAverage += float(key)
-    totalNumber += 1
+    key, value = line.strip().split("\t", 1)         # Remove trailing characters
+    totalWriters += int(key)
+    totalNumber += int(value)
 
-globalAverage = partialAverage / totalNumber
-print("{}".format(int(round(globalAverage))))
+globalAverage = float(totalWriters) / float(totalNumber)
+# print("{}".format(globalAverage))
+print("{}".format(int(round(float(globalAverage)))))
