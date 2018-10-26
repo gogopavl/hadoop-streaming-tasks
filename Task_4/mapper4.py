@@ -18,7 +18,7 @@ for line in sys.stdin:
     for key in map_function(line):
         # To keep O(1) space, we bound the size of our memory footprint
         genreSet.add(key)
-        if len(genreSet) == MAX_SIZE:
+        if len(genreSet) >= MAX_SIZE:
             for genre in genreSet:
                 print(genre)
             genreSet.clear()
