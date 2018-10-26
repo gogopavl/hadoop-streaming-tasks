@@ -1,5 +1,5 @@
 #!/usr/bin/python2.7
-# reducer6.py
+# reducer7.py
 import sys
 
 partialAverage = 0
@@ -11,4 +11,4 @@ for line in sys.stdin:          # For ever line in the input from stdin
     totalNumber += 1
 
 globalAverage = partialAverage / totalNumber
-print("{0:.2f}".format(round(float(globalAverage),2)))
+print("{}".format(int(round(globalAverage))))

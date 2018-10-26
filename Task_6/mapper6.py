@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-# mapper3.py
+# mapper6.py
 import sys
 from collections import defaultdict
 
