@@ -7,18 +7,19 @@ totalWriters = 0
 totalTitles = 0
 
 def map_function(line):
+    ident = line.split("\t")[0].strip()
     stringOfWriters = line.split("\t")[2].strip()
     listOfWriters = stringOfWriters.split(",")
-    numOfWriters = len(listOfWriters)
-    yield numOfWriters, 1
+    if "\N" not in listOfWriters:
+        numOfWriters = len(listOfWriters)
+        if numOfWriters >= 1:
+            yield numOfWriters, 1
 
 for line in sys.stdin:
     # Call the map_function for each line in the input
     for key, value in map_function(line):
-        if key == "\N": # Skip these entries
-            continue
         totalWriters += key
         totalTitles += value
 
-average = float(totalWriters) / totalTitles
-print(str(average))
+# average = float(totalWriters) / totalTitles
+print(str(totalWriters) + "\t" + str(totalTitles))
