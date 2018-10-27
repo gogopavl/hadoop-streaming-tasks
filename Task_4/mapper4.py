@@ -4,7 +4,7 @@ import sys
 from collections import defaultdict
 
 genreSet = set()
-MAX_SIZE = 100
+MAX_SIZE = 500
 
 def map_function(line):
     genres = line.split("\t")[8].strip().split(",")
