@@ -2,13 +2,14 @@
 # reducer6.py
 import sys
 
-partialAverage = 0
+totalVotes = 0
 totalNumber = 0
 
 for line in sys.stdin:          # For ever line in the input from stdin
-    key = line.strip()         # Remove trailing characters
-    partialAverage += float(key)
-    totalNumber += 1
+    key, value = line.strip().split("\t",1)         # Remove trailing characters
 
-globalAverage = partialAverage / totalNumber
+    totalVotes += int(key)
+    totalNumber += int(value)
+
+globalAverage = float(totalVotes) / float(totalNumber)
 print("{0:.2f}".format(round(float(globalAverage),2)))

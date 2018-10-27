@@ -2,8 +2,8 @@
 # reducer5.py
 import sys
 
-earliestYearGlobal = 20000
-latestYearGlobal = -20000
+earliestYearGlobal = sys.maxint
+latestYearGlobal = -sys.maxint -1
 
 for line in sys.stdin:          # For ever line in the input from stdin
     pair = line.split("\t", 1)

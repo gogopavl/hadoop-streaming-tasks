@@ -3,21 +3,18 @@
 import sys
 from collections import defaultdict
 
-
 totalVotes = 0
 totalNum = 0
 
 def map_function(line):
-    votes = float(line.split("\t")[2].strip())
-    # check non float?
-    yield votes, 1
+    votes = line.split("\t")[2].strip()
+    if votes != "\N":
+        votes = int(votes)
+        yield votes, 1
 
 for line in sys.stdin:
-    # Call the map_function for each line in the input
     for key, value in map_function(line):
-        # Agregate value for a word locally
         totalVotes += key
         totalNum += value
 
-average = totalVotes / totalNum
-print(str(average))
+print(str(totalVotes) +"\t"+ str(totalNum))
