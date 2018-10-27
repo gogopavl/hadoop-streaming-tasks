@@ -17,20 +17,3 @@ for line in sys.stdin: # For ever line in the input from stdin
     else:
         if splitKey == titleIdToWrite:
             print("{0}".format(value))
-
-#     if prev_key == titleIdToWrite:
-#         print("{0}".format(value))
-#     else:
-#         keyParts = key.split(".")
-#         splitKey = keyParts[0]
-#         splitKeyType = keyParts[1]
-#         print('type {}'.format(splitKeyType))
-#         if splitKeyType == "0":
-#             titleIdToWrite = splitKey
-#
-#         prev_key = splitKey
-#         prev_value = value
-#
-# if prev_key == titleIdToWrite: # Last pair
-#     # check and assing correct values
-#     print("{0}".format(value))

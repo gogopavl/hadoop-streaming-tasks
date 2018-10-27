@@ -20,15 +20,3 @@ for line in sys.stdin:          # For ever line in the input from stdin
     else:
         prev_key = key
         prev_value = value
-<<<<<<< HEAD
-=======
-
-if prev_key == key: # Last pair
-    # check and assing correct values
-    if ("." in prev_value):
-        if (int(value) > 1899) and (int(value) < 2000):
-            print("{0}\t{1}".format(value, prev_value))
-    else:
-        if (int(prev_value) > 1899) and (int(prev_value) < 2000):
-            print("{0}\t{1}".format(prev_value, prev_value))
->>>>>>> c6849e9bded7996b647936969a736cc117dfe8fc
