@@ -2,8 +2,8 @@
 # reducer1.py
 import sys
 
-words_total = 0
-lines_total = 0
+totalWords = 0
+totalLines = 0
 
 for line in sys.stdin:          # For ever line in the input from stdin
     line = line.strip()         # Remove trailing characters
@@ -11,7 +11,7 @@ for line in sys.stdin:          # For ever line in the input from stdin
     words = int(words)
     lines = int(lines)
 
-    words_total += words
-    lines_total += lines
+    totalWords += words
+    totalLines += lines
 
-print("{0}\t{1}".format(words_total, lines_total))
+print("{0}\t{1}".format(totalWords, totalLines))
