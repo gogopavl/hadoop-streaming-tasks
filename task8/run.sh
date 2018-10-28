@@ -19,5 +19,5 @@ hadoop jar /opt/hadoop/hadoop-2.9.1/share/hadoop/tools/lib/hadoop-streaming-2.9.
 	-file mapper2.py \
 	-file reducer2.py
 
-hdfs dfs -cat /user/s1884197/assignment/task8/out/* | sort -k1,1 > output.out
+hdfs dfs -cat /user/s1884197/assignment/task8/out/part-00000 | head -20 | sort -k1,1 > output.out
 

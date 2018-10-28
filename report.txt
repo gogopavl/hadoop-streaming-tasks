@@ -1,54 +1,54 @@
 In directory 1
 Found 2 items
--rw-r--r--   3 s1884197 supergroup          0 2018-10-28 17:44 assignment/task1/_SUCCESS
--rw-r--r--   3 s1884197 supergroup         19 2018-10-28 17:44 assignment/task1/part-00000
+-rw-r--r--   3 s1884197 supergroup          0 2018-10-28 19:41 assignment/task1/_SUCCESS
+-rw-r--r--   3 s1884197 supergroup         19 2018-10-28 19:41 assignment/task1/part-00000
 1
 In directory 2
 Found 3 items
--rw-r--r--   3 s1884197 supergroup          0 2018-10-28 17:48 assignment/task2/_SUCCESS
--rw-r--r--   3 s1884197 supergroup   11376383 2018-10-28 17:48 assignment/task2/part-00000
--rw-r--r--   3 s1884197 supergroup   11367345 2018-10-28 17:48 assignment/task2/part-00001
+-rw-r--r--   3 s1884197 supergroup          0 2018-10-28 19:45 assignment/task2/_SUCCESS
+-rw-r--r--   3 s1884197 supergroup   11376383 2018-10-28 19:45 assignment/task2/part-00000
+-rw-r--r--   3 s1884197 supergroup   11367345 2018-10-28 19:45 assignment/task2/part-00001
 1522101
 In directory 3
 Found 2 items
--rw-r--r--   3 s1884197 supergroup          0 2018-10-28 17:48 assignment/task3/_SUCCESS
--rw-r--r--   3 s1884197 supergroup          9 2018-10-28 17:48 assignment/task3/part-00000
+-rw-r--r--   3 s1884197 supergroup          0 2018-10-28 19:48 assignment/task3/_SUCCESS
+-rw-r--r--   3 s1884197 supergroup          9 2018-10-28 19:48 assignment/task3/part-00000
 1
 In directory 4
 Found 2 items
--rw-r--r--   3 s1884197 supergroup          0 2018-10-28 17:50 assignment/task4/_SUCCESS
--rw-r--r--   3 s1884197 supergroup        248 2018-10-28 17:50 assignment/task4/part-00000
+-rw-r--r--   3 s1884197 supergroup          0 2018-10-28 19:49 assignment/task4/_SUCCESS
+-rw-r--r--   3 s1884197 supergroup        248 2018-10-28 19:49 assignment/task4/part-00000
 28
 In directory 5
 Found 2 items
--rw-r--r--   3 s1884197 supergroup          0 2018-10-28 17:50 assignment/task5/_SUCCESS
--rw-r--r--   3 s1884197 supergroup         10 2018-10-28 17:50 assignment/task5/part-00000
+-rw-r--r--   3 s1884197 supergroup          0 2018-10-28 19:51 assignment/task5/_SUCCESS
+-rw-r--r--   3 s1884197 supergroup         10 2018-10-28 19:51 assignment/task5/part-00000
 1
 In directory 6
 Found 2 items
--rw-r--r--   3 s1884197 supergroup          0 2018-10-28 17:51 assignment/task6/_SUCCESS
--rw-r--r--   3 s1884197 supergroup          8 2018-10-28 17:51 assignment/task6/part-00000
+-rw-r--r--   3 s1884197 supergroup          0 2018-10-28 19:53 assignment/task6/_SUCCESS
+-rw-r--r--   3 s1884197 supergroup          8 2018-10-28 19:53 assignment/task6/part-00000
 1
 In directory 7
 Found 2 items
--rw-r--r--   3 s1884197 supergroup          0 2018-10-28 17:52 assignment/task7/_SUCCESS
--rw-r--r--   3 s1884197 supergroup          3 2018-10-28 17:52 assignment/task7/part-00000
+-rw-r--r--   3 s1884197 supergroup          0 2018-10-28 19:56 assignment/task7/_SUCCESS
+-rw-r--r--   3 s1884197 supergroup          3 2018-10-28 19:56 assignment/task7/part-00000
 1
 In directory 8
 Found 3 items
--rw-r--r--   3 s1884197 supergroup          0 2018-10-28 19:29 assignment/task8/out/_SUCCESS
--rw-r--r--   3 s1884197 supergroup         45 2018-10-28 19:29 assignment/task8/out/part-00000
--rw-r--r--   3 s1884197 supergroup         45 2018-10-28 19:29 assignment/task8/out/part-00001
+-rw-r--r--   3 s1884197 supergroup          0 2018-10-28 20:02 assignment/task8/out/_SUCCESS
+-rw-r--r--   3 s1884197 supergroup         45 2018-10-28 20:02 assignment/task8/out/part-00000
+-rw-r--r--   3 s1884197 supergroup         45 2018-10-28 20:02 assignment/task8/out/part-00001
 10
 In directory 9
 Found 3 items
--rw-r--r--   3 s1884197 supergroup          0 2018-10-28 17:54 assignment/task9/_SUCCESS
--rw-r--r--   3 s1884197 supergroup        147 2018-10-28 17:54 assignment/task9/part-00000
--rw-r--r--   3 s1884197 supergroup        235 2018-10-28 17:54 assignment/task9/part-00001
+-rw-r--r--   3 s1884197 supergroup          0 2018-10-28 20:00 assignment/task9/_SUCCESS
+-rw-r--r--   3 s1884197 supergroup        147 2018-10-28 20:00 assignment/task9/part-00000
+-rw-r--r--   3 s1884197 supergroup        235 2018-10-28 20:00 assignment/task9/part-00001
 27
 In directory 10
 Found 3 items
--rw-r--r--   3 s1884197 supergroup          0 2018-10-28 17:55 assignment/task10/_SUCCESS
--rw-r--r--   3 s1884197 supergroup   36202820 2018-10-28 17:55 assignment/task10/part-00000
--rw-r--r--   3 s1884197 supergroup   36090521 2018-10-28 17:55 assignment/task10/part-00001
+-rw-r--r--   3 s1884197 supergroup          0 2018-10-28 20:01 assignment/task10/_SUCCESS
+-rw-r--r--   3 s1884197 supergroup   36202820 2018-10-28 20:01 assignment/task10/part-00000
+-rw-r--r--   3 s1884197 supergroup   36090521 2018-10-28 20:01 assignment/task10/part-00001
 6568047
